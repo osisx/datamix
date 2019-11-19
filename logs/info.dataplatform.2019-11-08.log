@@ -1,0 +1,50 @@
+2019-11-08 17:40:41,559 [main] INFO  c.i.d.SpringBootApplicationStarter 50 - Starting SpringBootApplicationStarter on chenyunyundeMacBook-Air.local with PID 39317 (started by chenyunyun in /Users/chenyunyun/Documents/产链数字科技/dataplatform)
+2019-11-08 17:40:41,571 [main] INFO  c.i.d.SpringBootApplicationStarter 675 - No active profile set, falling back to default profiles: default
+2019-11-08 17:40:43,882 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-11-08 17:40:43,917 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-08 17:40:43,930 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-11-08 17:40:43,931 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-11-08 17:40:43,952 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenyunyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-08 17:40:44,144 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2019-11-08 17:40:44,145 [main] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 2487 ms
+2019-11-08 17:40:44,188 [main] INFO  o.s.b.w.s.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]
+2019-11-08 17:40:44,200 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 17:40:44,201 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 17:40:44,201 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-11-08 17:40:44,202 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 17:40:44,535 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 17:40:44,889 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-08 17:40:44,906 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2019-11-08 17:40:44,932 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2019-11-08 17:40:44,940 [main] INFO  c.i.d.SpringBootApplicationStarter 59 - Started SpringBootApplicationStarter in 4.561 seconds (JVM running for 11.895)
+2019-11-08 17:40:44,946 [main] INFO  c.i.d.SpringBootApplicationStarter 27 - spring boot启动耗时:4861 ms
+2019-11-08 17:44:13,497 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-08 17:58:45,872 [main] INFO  c.i.d.SpringBootApplicationStarter 50 - Starting SpringBootApplicationStarter on chenyunyundeMacBook-Air.local with PID 44718 (started by chenyunyun in /Users/chenyunyun/Documents/产链数字科技/dataplatform)
+2019-11-08 17:58:45,881 [main] INFO  c.i.d.SpringBootApplicationStarter 654 - No active profile set, falling back to default profiles: default
+2019-11-08 17:58:45,960 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5733f295: startup date [Fri Nov 08 17:58:45 CST 2019]; root of context hierarchy
+2019-11-08 17:58:47,622 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8080 (http)
+2019-11-08 17:58:47,649 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-08 17:58:47,676 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2019-11-08 17:58:47,677 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2019-11-08 17:58:47,685 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenyunyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-08 17:58:47,839 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/demo] 180 - Initializing Spring embedded WebApplicationContext
+2019-11-08 17:58:47,840 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1880 ms
+2019-11-08 17:58:47,899 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2019-11-08 17:58:47,911 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-08 17:58:47,912 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-08 17:58:47,912 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-08 17:58:47,912 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-08 17:58:48,059 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 17:58:48,357 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5733f295: startup date [Fri Nov 08 17:58:45 CST 2019]; root of context hierarchy
+2019-11-08 17:58:48,455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 17:58:48,457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 17:58:48,481 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 17:58:48,481 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 17:58:48,654 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2019-11-08 17:58:48,674 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-08 17:58:48,690 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2019-11-08 17:58:48,716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2019-11-08 17:58:48,727 [main] INFO  c.i.d.SpringBootApplicationStarter 59 - Started SpringBootApplicationStarter in 3.547 seconds (JVM running for 11.462)
+2019-11-08 17:58:48,734 [main] INFO  c.i.d.SpringBootApplicationStarter 27 - spring boot启动耗时:3775 ms
+2019-11-08 17:58:58,905 [Thread-2] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5733f295: startup date [Fri Nov 08 17:58:45 CST 2019]; root of context hierarchy
+2019-11-08 17:58:58,908 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown

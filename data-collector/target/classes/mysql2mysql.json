@@ -1,0 +1,59 @@
+{
+  "job": {
+    "content": [
+      {
+
+        "reader": {
+          "name": "mysqlreader",
+          "parameter": {
+            "username": "root",
+            "password": "root12345",
+            "column": ["*"],
+            "splitPk": "ID_",
+            "connection": [
+              {
+                "table": [
+                  "ACT_HI_ACTINST"
+                ],
+                "jdbcUrl": [
+                  "jdbc:mysql://localhost:3306/datalink?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true"
+                ]
+              }
+            ]
+          }
+        },
+        "writer": {
+          "name": "mysqlwriter",
+          "parameter": {
+            "writeMode": "insert",
+            "username": "root",
+            "password": "root12345",
+            "column": [
+              "*"
+            ],
+            "session": [
+              "set session sql_mode='ANSI'"
+            ],
+            "preSql": [
+              "truncate ACT_HI_ACTINST_back"
+            ],
+            "connection": [
+              {
+                "jdbcUrl": "jdbc:mysql://localhost:3306/datalink_back?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true",
+                "table": [
+                  "ACT_HI_ACTINST_back"
+                ]
+              }
+            ]
+          }
+
+        }
+      }
+    ],
+    "setting": {
+      "speed": {
+        "channel": 5
+      }
+    }
+  }
+}

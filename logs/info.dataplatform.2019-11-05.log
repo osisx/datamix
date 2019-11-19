@@ -1,0 +1,42 @@
+2019-11-05 17:27:54,808 [main] INFO  c.h.d.SpringBootApplicationStarter 50 - Starting SpringBootApplicationStarter on chenyunyundeMacBook-Air.local with PID 99267 (started by chenyunyun in /Users/chenyunyun/Documents/产链数字科技/dataplatform)
+2019-11-05 17:27:54,818 [main] INFO  c.h.d.SpringBootApplicationStarter 675 - No active profile set, falling back to default profiles: default
+2019-11-05 17:27:58,586 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-11-05 17:27:58,619 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-05 17:27:58,630 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-11-05 17:27:58,631 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-11-05 17:27:58,652 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenyunyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-05 17:27:58,875 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2019-11-05 17:27:58,876 [main] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 3816 ms
+2019-11-05 17:27:58,922 [main] INFO  o.s.b.w.s.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]
+2019-11-05 17:27:58,934 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-05 17:27:58,935 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-05 17:27:58,935 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-11-05 17:27:58,936 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-05 17:27:59,429 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-05 17:27:59,719 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-05 17:27:59,737 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2019-11-05 17:27:59,759 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2019-11-05 17:27:59,766 [main] INFO  c.h.d.SpringBootApplicationStarter 59 - Started SpringBootApplicationStarter in 6.648 seconds (JVM running for 10.417)
+2019-11-05 17:27:59,770 [main] INFO  c.h.d.SpringBootApplicationStarter 27 - 启动耗时:7346 ms
+2019-11-05 17:28:13,469 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-05 17:28:23,149 [main] INFO  c.h.d.SpringBootApplicationStarter 50 - Starting SpringBootApplicationStarter on chenyunyundeMacBook-Air.local with PID 99425 (started by chenyunyun in /Users/chenyunyun/Documents/产链数字科技/dataplatform)
+2019-11-05 17:28:23,160 [main] INFO  c.h.d.SpringBootApplicationStarter 675 - No active profile set, falling back to default profiles: default
+2019-11-05 17:28:25,968 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-11-05 17:28:25,999 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-05 17:28:26,009 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2019-11-05 17:28:26,010 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-11-05 17:28:26,022 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenyunyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-05 17:28:26,190 [main] INFO  o.a.c.c.C.[.[localhost].[/demo] 173 - Initializing Spring embedded WebApplicationContext
+2019-11-05 17:28:26,190 [main] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 2891 ms
+2019-11-05 17:28:26,235 [main] INFO  o.s.b.w.s.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]
+2019-11-05 17:28:26,278 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-05 17:28:26,279 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-05 17:28:26,284 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-11-05 17:28:26,289 [main] INFO  o.s.b.w.s.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-05 17:28:26,661 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-05 17:28:26,951 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-05 17:28:26,966 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2019-11-05 17:28:26,991 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2019-11-05 17:28:27,001 [main] INFO  c.h.d.SpringBootApplicationStarter 59 - Started SpringBootApplicationStarter in 5.21 seconds (JVM running for 7.47)
+2019-11-05 17:28:27,006 [main] INFO  c.h.d.SpringBootApplicationStarter 27 - 启动耗时:5558 ms
+2019-11-05 17:28:40,880 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'

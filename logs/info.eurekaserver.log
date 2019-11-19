@@ -1,0 +1,90 @@
+2019-11-09 20:39:17,404 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7770f470: startup date [Sat Nov 09 20:39:17 CST 2019]; root of context hierarchy
+2019-11-09 20:39:17,922 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-09 20:39:17,982 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99b3d963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-09 20:39:18,452 [main] INFO  c.i.d.SpringBootEurekaApplicationStarter 658 - The following profiles are active: dev
+2019-11-09 20:39:18,478 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Sat Nov 09 20:39:18 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7770f470
+2019-11-09 20:39:20,200 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=96e5c039-6682-384c-adfd-68bb1bdb97b7
+2019-11-09 20:39:20,240 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-09 20:39:20,483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99b3d963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-09 20:39:21,024 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8800 (http)
+2019-11-09 20:39:21,046 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8800"]
+2019-11-09 20:39:21,066 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2019-11-09 20:39:21,066 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2019-11-09 20:39:21,072 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenyunyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-11-09 20:39:21,245 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2019-11-09 20:39:21,245 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2767 ms
+2019-11-09 20:39:21,700 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2019-11-09 20:39:21,700 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-09 20:39:21,718 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@66466e
+2019-11-09 20:39:22,735 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-09 20:39:22,736 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-11-09 20:39:22,737 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-09 20:39:22,737 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-09 20:39:22,738 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-09 20:39:22,738 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-11-09 20:39:22,738 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-11-09 20:39:22,739 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2019-11-09 20:39:22,860 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl 815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-11-09 20:39:22,995 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-09 20:39:22,998 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-09 20:39:23,198 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2019-11-09 20:39:23,198 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2019-11-09 20:39:23,667 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2019-11-09 20:39:23,667 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-09 20:39:23,769 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-09 20:39:24,024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Sat Nov 09 20:39:18 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7770f470
+2019-11-09 20:39:24,114 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-09 20:39:24,115 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-09 20:39:24,124 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-09 20:39:24,125 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-11-09 20:39:24,158 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-09 20:39:24,158 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-09 20:39:24,827 [main] INFO  o.s.u.f.SpringTemplateLoader 62 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Sat Nov 09 20:39:18 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7770f470] and template loader path [classpath:/templates/]
+2019-11-09 20:39:24,829 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 131 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-11-09 20:39:25,074 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2019-11-09 20:39:25,134 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2019-11-09 20:39:25,134 [main] INFO  c.netflix.discovery.DiscoveryClient 352 - Client configured to neither register nor query for data.
+2019-11-09 20:39:25,158 [main] INFO  c.netflix.discovery.DiscoveryClient 365 - Discovery Client initialized at timestamp 1573303165156 with initial instances count: 0
+2019-11-09 20:39:25,252 [main] INFO  c.n.e.DefaultEurekaServerContext 63 - Initializing ...
+2019-11-09 20:39:25,255 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes 156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-09 20:39:25,292 [main] INFO  c.n.e.r.AbstractInstanceRegistry 151 - Finished initializing remote region registries. All known remote regions: []
+2019-11-09 20:39:25,294 [main] INFO  c.n.e.DefaultEurekaServerContext 70 - Initialized
+2019-11-09 20:39:25,366 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver 59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-09 20:39:25,393 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping 550 - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-09 20:39:25,395 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping 550 - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-11-09 20:39:25,396 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping 550 - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-09 20:39:25,465 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2019-11-09 20:39:25,481 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-11-09 20:39:25,483 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-11-09 20:39:25,486 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-11-09 20:39:25,491 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-11-09 20:39:25,516 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-11-09 20:39:25,533 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=b7c4869,type=ConfigurationPropertiesRebinder]
+2019-11-09 20:39:25,553 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2019-11-09 20:39:25,554 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application eureka-server with eureka with status UP
+2019-11-09 20:39:25,559 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerBootstrap 109 - Setting the eureka configuration..
+2019-11-09 20:39:25,560 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerBootstrap 114 - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-09 20:39:25,561 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerBootstrap 128 - Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-09 20:39:25,582 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8800"]
+2019-11-09 20:39:25,596 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerBootstrap 184 - isAws returned false
+2019-11-09 20:39:25,597 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerBootstrap 152 - Initialized server context
+2019-11-09 20:39:25,598 [Thread-35] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl 242 - Got 1 instances from neighboring DS node
+2019-11-09 20:39:25,598 [Thread-35] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl 243 - Renew threshold is: 1
+2019-11-09 20:39:25,599 [Thread-35] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl 254 - Changing status to UP
+2019-11-09 20:39:25,616 [Thread-35] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration 72 - Started Eureka Server
+2019-11-09 20:39:25,620 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2019-11-09 20:39:25,639 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8800 (http) with context path ''
+2019-11-09 20:39:25,640 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8800
+2019-11-09 20:39:25,645 [main] INFO  c.i.d.SpringBootEurekaApplicationStarter 59 - Started SpringBootEurekaApplicationStarter in 10.428 seconds (JVM running for 12.361)
+2019-11-09 20:39:26,094 [RMI TCP Connection(1)-192.168.0.102] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-09 20:39:26,095 [RMI TCP Connection(1)-192.168.0.102] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-09 20:39:26,133 [RMI TCP Connection(1)-192.168.0.102] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-11-09 20:39:41,469 [Thread-37] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 991 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Sat Nov 09 20:39:18 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7770f470
+2019-11-09 20:39:41,470 [Thread-37] INFO  o.s.c.n.e.s.EurekaServiceRegistry 65 - Unregistering application eureka-server with eureka with status DOWN
+2019-11-09 20:39:41,473 [Thread-37] INFO  o.s.c.s.DefaultLifecycleProcessor 369 - Stopping beans in phase 0
+2019-11-09 20:39:41,477 [Thread-37] INFO  c.n.e.DefaultEurekaServerContext 76 - Shutting down ...
+2019-11-09 20:39:41,481 [Thread-37] INFO  c.n.e.DefaultEurekaServerContext 79 - Shut down
+2019-11-09 20:39:41,484 [Thread-37] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2019-11-09 20:39:41,485 [Thread-37] INFO  o.s.j.e.a.AnnotationMBeanExporter 185 - Unregistering JMX-exposed beans
+2019-11-09 20:39:41,490 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient 888 - Shutting down DiscoveryClient ...
+2019-11-09 20:39:41,491 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient 911 - Completed shut down of DiscoveryClient

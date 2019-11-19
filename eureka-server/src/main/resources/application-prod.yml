@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    hostname: discovery0
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      # 0号discovery 向1号注册
+      defaultZone: http://discovery1:${server.port}/eureka/
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    cn: info
